@@ -1,0 +1,127 @@
+body{
+    /*width: 100%;*/
+    min-width: 1170px;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.container{
+    min-width: 768px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*----------------------------------------------------
+Шапка сайта
+------------------------------------------------------*/
+.main-header{
+    position: relative;
+    background-color: #1d2126;
+    color: #ffffff;
+}
+
+.main-header .logo{
+    position: absolute;
+    top: 30px;
+    float: left;
+    max-width: 165px;
+}
+
+.navigation{
+    float: right;
+    max-width: 680px;
+}
+
+.navigation ul{
+    margin: 0;
+}
+
+.navigation li{
+    display: inline-block;
+    vertical-align: top;
+    padding: 23px 0;
+    margin: 0 5px;
+}
+
+.navigation a{
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a4aead;
+    padding: 0 10px;
+    border: 2px solid transparent;
+}
+
+.navigation a:hover{
+    border: 2px solid #a4aead;
+    border-radius: 4px;
+}
+
+.navigation .active-nav{
+    color: #23b7a4;
+    border: 2px solid #23b7a4;
+    border-radius: 4px;
+}
+
+.navigation .active-nav:hover{
+    border: 2px solid #23b7a4;
+}
+
+.slider{
+    background: #3a454d url("../_img/img_header3.jpg") 50% 30%;
+    background-size: cover;
+    width: 100%;
+    min-height: 660px;
+}
+
+.slider .head-slider{
+    padding-top: 222px;
+}
+
+.head-slider .head-title{
+    font-family: 'Quattrocento Sans', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+.head-slider .head-text{
+    color: #ccd0d7;
+    max-width: 665px;
+    vertical-align: 3px;
+    margin: 15px 0 35px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 25px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.btn:hover{
+    border: 2px solid #23b7a4;
+    background: #23b7a4;
+}
+
+h1, p{
+    margin: 0;
+}
