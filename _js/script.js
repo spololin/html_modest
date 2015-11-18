@@ -14,3 +14,13 @@ function initialize() {
     });
 }
 google.maps.event.addDomListener(window, 'load', initialize);
+
+$(window).load(function() {
+    var hideTheModal = $.cookie('hideTheModal');
+    if(hideTheModal == null){
+        $('#popup-win').modal();
+        $('.close-modal').click(function(){
+            $.cookie('hideTheModal', { expires: 1, path: '/' });
+        });
+    }
+});
