@@ -29,11 +29,19 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+[class^="icon-"]:hover:before, [class*=" icon-"]:hover:before {
+    color: #23b7a4;
+}
+
+.icon-plus:hover:before, .icon-plus:hover:before {
+    color: #ffffff;
+}
+
 .icon-twitter:before { content: '\e800'; } /* '' */
 .icon-facebook:before { content: '\e801'; } /* '' */
 .icon-google:before { content: '\e802'; } /* '' */
 .icon-dribbble:before { content: '\e803'; } /* '' */
 .icon-linkedin:before { content: '\e804'; } /* '' */
 .icon-skype:before { content: '\e805'; } /* '' */
-.icon-plus:before { content: '\e806'; } /* '' */
+.icon-plus:before { content: '\e806'; font-size: 20px; line-height: 20px; } /* '' */
 .icon-blogger:before { content: '\e807'; } /* '' */
