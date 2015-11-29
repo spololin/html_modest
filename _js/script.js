@@ -95,5 +95,6 @@ $(document).ready(function () {
                 }
             }
         }, false);
-    }
+    };
+    $('.aniview').AniView();
 });
